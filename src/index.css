@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  padding: 10px 20px;
+  border: 2px solid black;
+  background: white;
+  font-size: 16px;
+  outline: none;
+}
+
+button:active {
+  background: pink;
+}
+
+section {
+  padding: 10px;
+  margin: 10px;
+  background: rgba(250, 0, 175, 0.15);
+  border-radius: 8px;
+}
+
+.err-msg {
+  color: red;
+}
+
+.loading-msg {
+  background: coral;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid black;
 }
